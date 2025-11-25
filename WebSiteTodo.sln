@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSiteTodo", "L:\Projects2025-2026\TodoList\WebSiteTodo\", "{882212ED-9BE8-A59A-0713-E510E6E4781B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60958"
+		Debug.AspNetCompiler.PhysicalPath = "L:\Projects2025-2026\TodoList\WebSiteTodo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60958\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60958"
+		Release.AspNetCompiler.PhysicalPath = "L:\Projects2025-2026\TodoList\WebSiteTodo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60958\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60958"
+		SlnRelativePath = "L:\Projects2025-2026\TodoList\WebSiteTodo\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{882212ED-9BE8-A59A-0713-E510E6E4781B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882212ED-9BE8-A59A-0713-E510E6E4781B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09E043A7-9F7D-4FDD-9160-31FB85EDB6C4}
+	EndGlobalSection
+EndGlobal
