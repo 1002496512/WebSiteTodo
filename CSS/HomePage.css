@@ -1,13 +1,14 @@
 ﻿* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: 'SpaceMono-Regular', monospace;
 }
 
 
 .wrapper {
     width: 1778px;
-    margin: 0 auto;
+    margin: 100px auto;
     border: 4px solid #100f0f;
     
 }
@@ -15,6 +16,8 @@
     display: flex;
     width: 500px;
     border-right: 2px solid #100f0f;
+    padding: 60px 40px 60px 0px;
+    background-color: #c0cffd;
 }
 .header {
     
@@ -25,25 +28,43 @@
 }
 .navigation {
     display: flex;
-    flex-basis: auto ;
+    
+    margin-left: 20px;
     
 }
 .dashboard {
     width: 500px;
     border-right: 2px solid #100f0f;
+    background-color: #c0cffd;
+    padding: 40px 40px 40px 40px;
 }
 @font-face {
     font-family: 'SpaceMono-Italic';
     src: url('../Fonts/SpaceMono-Italic.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'SpaceMono-Regular';
+    src: url('../Fonts/SpaceMono-Regular.ttf') format('truetype');
+}
 .nav-list {
     list-style: none;
     display: flex;
 }
-.main{
-    display:flex;
+.mainTitle {
+    
+    padding: 60px 0px 60px 40px;
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-between;
 }
-.footer {
+.main {
+    display: flex;
+}
+.mainTitle {
+   
+
+}
+    .footer {
     display: flex;
     
     border-top: 2px solid #100f0f;
@@ -52,19 +73,39 @@
     
 }
 .main-content {
-    background-color: #c0cffd;
+   
     flex-grow: 1;
 }
 .headertitle {
-    background-color: #c0cffd;
-    flex-grow: 1;
+    font-family:
 }
 .footer-text {
    
-    background-color: #c0cffd;
     flex-grow: 1;
 }
 .social-media {
     width: 500px;
     border-right: 2px solid #100f0f;
+    background-color: #c0cffd;
+}
+.search-input {
+    width: 350px;
+    background: #c0cffd;
+    padding: 20px 10px 20px 40px;
+    border: none;
+    border-radius: 30px 0px 00px 30px;
+    font-family: SpaceMono-Regular;
+    font-size: 23px;
+    font-weight:500;
+}
+.nav-link {
+    text-decoration: none;
+    color: #100f0f;
+    white-space: nowrap;
+    font-weight: 550;
+    font-family: 'SpaceMono-Regular', monospace;
+}
+
+.nav-item {
+    margin: 10px 25px 10px 25px;
 }
